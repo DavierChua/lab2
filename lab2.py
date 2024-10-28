@@ -12,7 +12,7 @@ def calc_min_max_temperature(numbers):
     lowest = min(numbers)
     highest = max(numbers)
     return lowest, highest
-
+        
 
 numbers_list = user_input()
 min,max= calc_min_max_temperature(numbers_list)
